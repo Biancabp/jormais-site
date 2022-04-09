@@ -29,7 +29,7 @@ URI.js has an extensive test suite, and works in all (Node.js, web) environments
 
 	URI.resolve("uri://a/b/c/d?q", "../../g") === "uri://a/g"
 
-### Normalizing
+### Normalizing 
 
 	URI.normalize("HTTP://ABC.com:80/%7Esmith/home.html") === "http://abc.com/~smith/home.html"
 
