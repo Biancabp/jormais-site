@@ -1,37 +1,39 @@
-// color variables definition
-$black:               #222;
-$white:               #fff;
-$neve:               #627c83;
-$neve-2:             #FAFBFF;
-$dark:                #293145;
-$dark-2:                #1D2031;
-$gray:                #6E7275;
-$light-gray:          #736f82;
-$primary-extra-light: #F5F8FF;
-$primary-light-1:     #64D5F7;
-$primary-light-2:     #81D0DF38;
-$primary:             #087592;
-$primary-dark-1:      #233673;
-$primary-dark-2:      #01143C;
+//variáveis das cores
+$ui-color-primary-light: #008E86;
+$ui-color-primary: #0B8D85;
+$black-2: #1F2D3D;
+$aco: #273444;
+$prata: #3C4858;
+$prata-2: #707C8C;
+$gray: #8492A6;
+$gray-2: #D6D6D6;
+$fumaca-extra-dark: #848484;
+$neve-extra-dark: #E5E9F2;
+$neve-dark: #EFF2F7;
+$neve: #F9FAFC;
+$white: #FFFFFF;
+$transparent: #00000000;
 
+$awe-colors: (
+  "primary-normal":      $ui-color-primary,
+  "primary-light":       $ui-color-primary-light,
+  "black-2":            $black-2,
+  "aco":                $aco,
+  "prata":              $prata,
+  "prata-2":            $prata-2,
+  "gray":               $gray,
+  "gray-2":             $gray-2,
+  "fumaca-extra-dark":  $fumaca-extra-dark,
+  "neve-extra-dark":    $neve-extra-dark,
+  "neve-dark":          $neve-dark,
+  "neve":               $neve,
+  "white":              $white
+);
 
-
-$theme-colors: (
-  "black":                $black,
-  "white":                $white,
-  "neve":                 $neve,  
-  "neve-2":                 $neve-2, 
-  "dark":                 $dark,
-  "dark-2":               $dark-2,
-  "light":                $light-gray,
-  "gray":                 $gray,
-  "primary-extra-light":  $primary-extra-light,
-  "primary-light-1":      $primary-light-1,
-  "primary":              $primary,
-  "primary-dark-1":       $primary-dark-1,
-  "primary-dark-2":       $primary-dark-2,
-  "transparent": #fff0,
-) !default;
+//Variáveis das fontes
+$font-family-sans-serif: 'Inter', sans-serif;
+$font-sizes: (12: 12px, 14: 14px ,16: 16px, 18: 18px, 21: 21px, 24: 24px, 26: 26px, 28:28px, 32: 32px, 36: 36px, 40: 40px, 44: 44px);
+$font-families: (inter: 'Inter', open-sans: 'Open Sans');
 
 // spacers variable definition
 $spacer: 1rem;
@@ -43,11 +45,14 @@ $custom-spacers: (
   "awe-24": $spacer * 1.5,
   "awe-28": $spacer * 1.75,
   "awe-32": $spacer * 2,
+  "awe-36": $spacer * 2.25,
   "awe-40": $spacer * 2.5,
+  "awe-44": $spacer * 2.75,
   "awe-48": $spacer * 3,
   "awe-56": $spacer * 3.5,
   "awe-64": $spacer * 4,
   "awe-80": $spacer * 5,
+  "awe-84": $spacer * 5.25,
   "awe-96": $spacer * 6,
   "awe-108": $spacer * 6.75,
   "awe-128": $spacer * 8,
@@ -99,3 +104,28 @@ $progress-bg:                       #D9DCE5;
 
 $input-btn-padding-y:         .1rem;
 $input-btn-padding-x:         .1rem;
+
+$navbar-padding-y: 0;
+
+//Pagination
+$pagination-color:                  $aco;
+$pagination-bg:                     none;
+$pagination-border-color:           none;
+$pagination-focus-color:            $ui-color-primary-light;
+$pagination-focus-bg:               none;
+$pagination-focus-box-shadow:       none;
+$pagination-focus-outline:          0;
+$pagination-hover-bg:               none;
+$pagination-hover-border-color:     none;
+$pagination-active-color:           $ui-color-primary-light;
+$pagination-active-bg:              none;
+$pagination-active-border-color:    $ui-color-primary-light;
+
+//input
+$input-box-shadow:                      none;
+$input-focus-border-color:              none;
+$input-focus-box-shadow:                none;
+$input-plaintext-color:                 none;
+
+//button
+$btn-focus-box-shadow:       none;
