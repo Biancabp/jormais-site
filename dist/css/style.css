@@ -8934,6 +8934,10 @@ textarea.form-control-lg {
   font-size: 20px !important;
 }
 
+.fz-21 {
+  font-size: 21px !important;
+}
+
 .fz-24 {
   font-size: 24px !important;
 }
@@ -8944,6 +8948,10 @@ textarea.form-control-lg {
 
 .fz-30 {
   font-size: 30px !important;
+}
+
+.fz-36 {
+  font-size: 36px !important;
 }
 
 .fz-38 {
@@ -11547,6 +11555,10 @@ textarea.form-control-lg {
     font-size: 20px !important;
   }
 
+  .fz-sm-21 {
+    font-size: 21px !important;
+  }
+
   .fz-sm-24 {
     font-size: 24px !important;
   }
@@ -11557,6 +11569,10 @@ textarea.form-control-lg {
 
   .fz-sm-30 {
     font-size: 30px !important;
+  }
+
+  .fz-sm-36 {
+    font-size: 36px !important;
   }
 
   .fz-sm-38 {
@@ -13746,6 +13762,10 @@ textarea.form-control-lg {
     font-size: 20px !important;
   }
 
+  .fz-md-21 {
+    font-size: 21px !important;
+  }
+
   .fz-md-24 {
     font-size: 24px !important;
   }
@@ -13756,6 +13776,10 @@ textarea.form-control-lg {
 
   .fz-md-30 {
     font-size: 30px !important;
+  }
+
+  .fz-md-36 {
+    font-size: 36px !important;
   }
 
   .fz-md-38 {
@@ -15945,6 +15969,10 @@ textarea.form-control-lg {
     font-size: 20px !important;
   }
 
+  .fz-lg-21 {
+    font-size: 21px !important;
+  }
+
   .fz-lg-24 {
     font-size: 24px !important;
   }
@@ -15955,6 +15983,10 @@ textarea.form-control-lg {
 
   .fz-lg-30 {
     font-size: 30px !important;
+  }
+
+  .fz-lg-36 {
+    font-size: 36px !important;
   }
 
   .fz-lg-38 {
@@ -18144,6 +18176,10 @@ textarea.form-control-lg {
     font-size: 20px !important;
   }
 
+  .fz-xl-21 {
+    font-size: 21px !important;
+  }
+
   .fz-xl-24 {
     font-size: 24px !important;
   }
@@ -18154,6 +18190,10 @@ textarea.form-control-lg {
 
   .fz-xl-30 {
     font-size: 30px !important;
+  }
+
+  .fz-xl-36 {
+    font-size: 36px !important;
   }
 
   .fz-xl-38 {
@@ -20343,6 +20383,10 @@ textarea.form-control-lg {
     font-size: 20px !important;
   }
 
+  .fz-xxl-21 {
+    font-size: 21px !important;
+  }
+
   .fz-xxl-24 {
     font-size: 24px !important;
   }
@@ -20353,6 +20397,10 @@ textarea.form-control-lg {
 
   .fz-xxl-30 {
     font-size: 30px !important;
+  }
+
+  .fz-xxl-36 {
+    font-size: 36px !important;
   }
 
   .fz-xxl-38 {
@@ -20631,14 +20679,6 @@ article p {
 
 .text-primary-light {
   color: #008E86 !important;
-}
-
-.fz-21 {
-  font-size: 21px !important;
-}
-
-.fz-36 {
-  font-size: 36px !important;
 }
 
 .position-absolute {
