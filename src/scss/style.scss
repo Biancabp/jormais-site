@@ -72,20 +72,6 @@ article {
     background: linear-gradient(90deg, #eff4fc 0%, rgba(249, 250, 252, 0) 106.36%);
 }
 
-//logo do footer
-.box-logo-primary{
-    position: relative;
-    &::after{
-        content: "";
-        display: block;
-        width: 60px;
-        height: 1px;
-        background: $ui-color-primary;
-        position: absolute;
-        bottom:-20px;
-        left:23px;
-    }
-}
 
 @media (max-width: 576px) {
     header {

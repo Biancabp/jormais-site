@@ -20470,20 +20470,6 @@ article p {
   background: linear-gradient(90deg, #eff4fc 0%, rgba(249, 250, 252, 0) 106.36%);
 }
 
-.box-logo-primary {
-  position: relative;
-}
-.box-logo-primary::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 1px;
-  background: #0B8D85;
-  position: absolute;
-  bottom: -20px;
-  left: 23px;
-}
-
 @media (max-width: 576px) {
   header .box-logo {
     position: relative;
