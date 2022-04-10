@@ -51,7 +51,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Nunito", sans-serif;
+  --bs-font-sans-serif: "Inter", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -8910,6 +8910,10 @@ textarea.form-control-lg {
   font-family: var(--bs-font-monospace) !important;
 }
 
+.fz-10 {
+  font-size: 10px !important;
+}
+
 .fz-12 {
   font-size: 12px !important;
 }
@@ -8938,8 +8942,8 @@ textarea.form-control-lg {
   font-size: 28px !important;
 }
 
-.fz-32 {
-  font-size: 32px !important;
+.fz-30 {
+  font-size: 30px !important;
 }
 
 .fz-38 {
@@ -11519,6 +11523,10 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
+  .fz-sm-10 {
+    font-size: 10px !important;
+  }
+
   .fz-sm-12 {
     font-size: 12px !important;
   }
@@ -11547,8 +11555,8 @@ textarea.form-control-lg {
     font-size: 28px !important;
   }
 
-  .fz-sm-32 {
-    font-size: 32px !important;
+  .fz-sm-30 {
+    font-size: 30px !important;
   }
 
   .fz-sm-38 {
@@ -13714,6 +13722,10 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
+  .fz-md-10 {
+    font-size: 10px !important;
+  }
+
   .fz-md-12 {
     font-size: 12px !important;
   }
@@ -13742,8 +13754,8 @@ textarea.form-control-lg {
     font-size: 28px !important;
   }
 
-  .fz-md-32 {
-    font-size: 32px !important;
+  .fz-md-30 {
+    font-size: 30px !important;
   }
 
   .fz-md-38 {
@@ -15909,6 +15921,10 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
+  .fz-lg-10 {
+    font-size: 10px !important;
+  }
+
   .fz-lg-12 {
     font-size: 12px !important;
   }
@@ -15937,8 +15953,8 @@ textarea.form-control-lg {
     font-size: 28px !important;
   }
 
-  .fz-lg-32 {
-    font-size: 32px !important;
+  .fz-lg-30 {
+    font-size: 30px !important;
   }
 
   .fz-lg-38 {
@@ -18104,6 +18120,10 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
+  .fz-xl-10 {
+    font-size: 10px !important;
+  }
+
   .fz-xl-12 {
     font-size: 12px !important;
   }
@@ -18132,8 +18152,8 @@ textarea.form-control-lg {
     font-size: 28px !important;
   }
 
-  .fz-xl-32 {
-    font-size: 32px !important;
+  .fz-xl-30 {
+    font-size: 30px !important;
   }
 
   .fz-xl-38 {
@@ -20299,6 +20319,10 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
+  .fz-xxl-10 {
+    font-size: 10px !important;
+  }
+
   .fz-xxl-12 {
     font-size: 12px !important;
   }
@@ -20327,8 +20351,8 @@ textarea.form-control-lg {
     font-size: 28px !important;
   }
 
-  .fz-xxl-32 {
-    font-size: 32px !important;
+  .fz-xxl-30 {
+    font-size: 30px !important;
   }
 
   .fz-xxl-38 {
@@ -20574,30 +20598,29 @@ article p {
   border: 1px solid #0B8D85;
 }
 
-.box-gradient {
-  min-height: 100%;
-  min-width: 100%;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 37%, rgb(0, 0, 0) 100%);
-}
-
-.box-3 {
-  min-height: 676px;
-  background: #008E86;
-}
-
-.box-2 {
-  height: 320px;
-  background: #0B8D85;
+.card-box::after {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 52%, rgb(0, 0, 0) 100%);
+  content: "Will Smith é banido do Oscar por 10 anos após tapa em Chris Rock<";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 561px;
 }
 
 .box {
-  height: 320px;
-  background: #273444;
+  bottom: 0;
+  left: 0;
+  padding: 30px;
 }
 
-.card-text, .card-text p {
-  max-width: 22.5rem;
-  min-width: 22.5rem;
+.box-2 {
+  top: 0;
+  left: 0;
+  background-color: #E62121;
+  padding: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
 .text-prata {
@@ -20630,6 +20653,14 @@ article p {
 
 .fz-36 {
   font-size: 36px !important;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+.position-relative {
+  position: relative !important;
 }
 
 /*# sourceMappingURL=style.css.map */

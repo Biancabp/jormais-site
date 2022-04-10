@@ -32,7 +32,7 @@ $awe-colors: (
 
 //Variáveis das fontes
 $font-family-sans-serif: 'Inter', sans-serif;
-$font-sizes: (12: 12px, 14: 14px ,16: 16px, 18: 18px, 21: 21px, 24: 24px, 26: 26px, 28:28px, 32: 32px, 36: 36px, 40: 40px, 44: 44px);
+$font-sizes: (12: 12px, 14: 14px ,16: 16px, 18: 18px, 21: 21px, 24: 24px, 26: 26px, 28:28px, 30: 30px, 36: 36px, 40: 40px, 44: 44px);
 $font-families: (inter: 'Inter', open-sans: 'Open Sans');
 
 // spacers variable definition
@@ -64,8 +64,9 @@ $custom-spacers: (
 ) !default;
 
 //Variáveis das fontes
-$font-family-sans-serif: "Nunito", sans-serif;
+$font-family-sans-serif: "Inter", sans-serif;
 $font-sizes: (
+  10: 10px,
   12: 12px,
   14: 14px,
   16: 16px,
@@ -73,7 +74,7 @@ $font-sizes: (
   20: 20px,
   24: 24px,
   28: 28px,
-  32: 32px,
+  30: 30px,
   38: 38px,
   48: 48px,
   56: 56px,
