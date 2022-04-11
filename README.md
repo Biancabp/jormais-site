@@ -1,2 +1,2 @@
 # jormais-site
-<a href="https://celebrated-speculoos-5f8fdd.netlify.app/pages/">link da página</a>
+<a href="https://thunderous-shortbread-66d29a.netlify.app/pages/">link da página</a>
