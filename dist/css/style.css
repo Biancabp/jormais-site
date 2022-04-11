@@ -8910,6 +8910,10 @@ textarea.form-control-lg {
   font-family: var(--bs-font-monospace) !important;
 }
 
+.fz-8 {
+  font-size: 8px !important;
+}
+
 .fz-10 {
   font-size: 10px !important;
 }
@@ -11531,6 +11535,10 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
+  .fz-sm-8 {
+    font-size: 8px !important;
+  }
+
   .fz-sm-10 {
     font-size: 10px !important;
   }
@@ -13736,6 +13744,10 @@ textarea.form-control-lg {
 
   .ps-md-5 {
     padding-left: 3rem !important;
+  }
+
+  .fz-md-8 {
+    font-size: 8px !important;
   }
 
   .fz-md-10 {
@@ -15945,6 +15957,10 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
+  .fz-lg-8 {
+    font-size: 8px !important;
+  }
+
   .fz-lg-10 {
     font-size: 10px !important;
   }
@@ -18150,6 +18166,10 @@ textarea.form-control-lg {
 
   .ps-xl-5 {
     padding-left: 3rem !important;
+  }
+
+  .fz-xl-8 {
+    font-size: 8px !important;
   }
 
   .fz-xl-10 {
@@ -20359,6 +20379,10 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
+  .fz-xxl-8 {
+    font-size: 8px !important;
+  }
+
   .fz-xxl-10 {
     font-size: 10px !important;
   }
@@ -20640,6 +20664,10 @@ article p {
   top: 0;
   bottom: 0;
   width: 561px;
+}
+
+.principais-publi .card-text {
+  max-width: 366px;
 }
 
 .box {
